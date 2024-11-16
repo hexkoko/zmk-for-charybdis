@@ -60,12 +60,12 @@
 
         layer_4 {
             bindings = <
-&bootloader  &none  &none  &none  &none         &none         &none    &none  &none  &none  &none  &none  &none  &bootloader
-&none        &none  &none  &none  &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
-&none        &none  &none  &none  &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
-&none        &none  &none  &none  &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
-&none        &none  &none  &none  &out OUT_USB  &out OUT_BLE  &none    &none  &none  &none  &none  &none  &none  &none
-                                                &none         &none    &none  &none
+&bootloader  &none  &none  &none  &none  &none         &none    &none  &none  &none  &none  &none  &none  &bootloader
+&none        &none  &none  &none  &none  &none         &none    &none  &none  &none  &none  &none  &none  &none
+&none        &none  &none  &none  &none  &none         &none    &none  &none  &none  &none  &none  &none  &none
+&none        &none  &none  &none  &none  &none         &none    &none  &none  &none  &none  &none  &none  &none
+&none        &none  &none  &none  &none  &out OUT_BLE  &none    &none  &none  &none  &none  &none  &none  &none
+                                         &none         &none    &none  &none
             >;
         };
 
